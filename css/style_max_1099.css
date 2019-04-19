@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1099px) {
+  html{
+    scroll-behavior: smooth;
+  }
+
+  header, footer{
+    background-color: Indigo;
+    padding: 0 5% 0 5%;
+    display: flex;
+  }
+  nav{
+    width: 50%;
+    font-family: 'Arial';
+    color: white;
+  }
+  nav p{
+    font-size: 40px;
+    padding: 20px 0 10px 0;
+  }
+  li{
+    padding: 5px 0 5px 0;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  a:hover{
+    color: gold;
+  }
+  .logo_apache{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /*-----------------------------------------------------*/
+
+  main{
+    padding: 0 5% 0 5%;
+    font-family: 'Arial';
+  }
+  section{
+    margin: 40px 0 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .NGINX,
+  .tomcat{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+  .Apache_title,
+  .Apache_figure,
+  .NGINX_title,
+  .NGINX_figure,
+  .tomcat_title,
+  .tomcat_figure{
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .Apache_figure,
+  .NGINX_figure,
+  .tomcat_figure{
+    justify-content: flex-end;
+  }
+  h1,h2{
+    font-size: 50px;
+  }
+  h3{
+    font-size: 40px;
+  }
+  .Apache_about,
+  .web_serv_about,
+  .work_apache_about,
+  .other_serv_about,
+  .NGINX_about,
+  .tomcat_about,
+  .adv_lim_about,
+  .adv_lim_adventeges,
+  .adv_lim_limination,
+  .what_apache_about{
+    margin: 20px 0 0 0;
+    line-height: 1.1;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .NGINX_about ul,
+  .tomcat_about ul,
+  .adv_lim_adventeges ul,
+  .adv_lim_limination ul{
+    margin: 10px 0 0 40px;
+    list-style-type: disc;
+  }
+  footer figure{
+    margin-right: 40px;
+  }
+  .display_none{
+    display: none;
+  }
+}
